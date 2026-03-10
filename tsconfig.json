@@ -2,5 +2,15 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./libs/shared/domain"
+    },
+    {
+      "path": "./libs/todo/domain-protocol"
+    },
+    {
+      "path": "./libs/todo/domain-model"
+    }
+  ]
 }
